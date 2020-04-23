@@ -31,13 +31,17 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
           maxWidth: 960,
           padding: `0 1.0875rem 1.45rem`,
+          //background: "black",
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+
+        <footer style = {{
+          color: "white",
+          fontFamily: "SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace",
+        }}>
+         created by anusri saraf
+      {/*{new Date().getFullYear()}, */}
         </footer>
       </div>
     </>

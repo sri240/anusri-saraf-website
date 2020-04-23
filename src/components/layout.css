@@ -1,7 +1,8 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background-color: rgb(2,1,3);
 }
 body {
   margin: 0;
@@ -14,7 +15,9 @@ details,
 figcaption,
 figure,
 footer,
-header,
+header{
+  font-family: 'Courier New', Courier, monospace;
+}
 main,
 menu,
 nav,
@@ -42,6 +45,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #aee3e7;
 }
 a:active,
 a:hover {
@@ -63,6 +67,9 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  /*color: white;
+  font-family: "Courier New";
+  font-weight: 'lighter';*/
 }
 mark {
   background-color: #ff0;
@@ -89,6 +96,15 @@ img {
 }
 svg:not(:root) {
   overflow: hidden;
+}
+svg{
+  fill: #9de5e7
+}
+svg:hover{
+  fill: #f1dcb4
+}
+div.activities{
+  color: rgb(180, 180, 240);
 }
 code,
 kbd,
@@ -377,6 +393,8 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
+  color: rgb(137, 200, 251);
+  font-family: "Courier New", monospace;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;

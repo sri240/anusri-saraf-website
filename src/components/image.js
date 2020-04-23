@@ -16,17 +16,24 @@ import Img from "gatsby-image"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
+      file(relativePath: { eq: "omo.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
+          fixed(width:160, height: 233) {
+            ...GatsbyImageSharpFixed
           }
         }
       }
+      
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img
+    fixed={data.file.childImageSharp.fixed}
+    alt="My Logo"
+    style={{transform:"rotate(10deg)",
+      marginLeft: "3em",
+    }}
+  />
 }
 
 export default Image
