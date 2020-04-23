@@ -78,10 +78,10 @@ const IndexPage = () => (
           marginBottom: "0px",
           clear: "both",
           marginLeft: "460px"}}>
-         <i>cybersecurity</i> • i compete in online ctfs under the psuedonym art3m1s as part of the 5-member all-female team known as
+         <i>cybersecurity</i> • i compete in online ctfs under the psuedonym art3m1s as part of the 6-member all-female team known as
          code red. through competing in these competitions, i have been able to develop various skills necessary for a career in 
          the field, including forensics, reverse engineering, cryptography, password cracking, web access exploitation, log analysis, 
-         and many more. i have become familiar with tools such as ghidra, wireshark, gdb, gimp, and hashcat and have been given
+         and many more. i have become familiar with tools such as ghidra, wireshark, gdb, gimp, and hashcat, and have been given
          opportunities to participate in competitions where my team and i act as a cybersecurity firm interacting with clients. 
          additionally, i am one of the developers for the riceteacatpanda ctf.<br/>
          </p>
@@ -91,7 +91,7 @@ const IndexPage = () => (
           marginRight: "460px"}}>
          <i>robotics</i> •  being quite the geek when it comes to robotics, i have become skilled in robotics design and build 
          practices, including autocad, fritzing, breadboarding, soldering, and woodworking. i complete projects with groups of 
-         girls from girl scouts for recreation as well as competition. i teach robotics as well.</p>
+         girls from girl scouts for recreation and competition. i teach robotics as well.</p>
         {/*data science: show algorithms and link kaggle projects*/}
 
 
@@ -123,7 +123,7 @@ const IndexPage = () => (
           marginBottom: "20px",
           clear: "both",
           marginRight: "460px"}}>
-         <i>poetry</i> • poetry is what i turn to when inspiration strikes me in the form of rhymes. oftentimes i will find a way 
+         <i>poetry</i> • poetry is what i turn to when inspiration strikes me in the form of a snippet of a story. oftentimes i will find a way 
          to describe something that follows rhyme and structure, and i will rush to write it down. it is in this way, and by reading 
          the poetry of others, that i have developed my own poetry that expresses these thoughts and feelings concisely and with beauty.
          <br /></p>
@@ -157,10 +157,10 @@ const IndexPage = () => (
           marginBottom: "0px",
           clear: "both",
           marginRight: "460px"}}>
-            <i>leadership & teamwork</i> • teamwork is necessary for humans to make progress. i practice teamwork in cybersecurity,
-            robotics, music, and in toastmasters. during my time in the toastmasters program, i have served as president and vice president
-            of education and have earned my competent leadership award. being a leader in these activities requires emotional intelligence,
-            determination, and innovation.
+            <i>leadership & teamwork</i> • teamwork is necessary for humans to make progress. i practice teamwork in cybersecurity, school
+            robotics, music, and in toastmasters. at school, i served as president of the freshman c/o 2022. during my time in the toastmasters 
+            program, i have served as president and vice president of education and have earned my competent leadership award. being a leader 
+            in these activities requires emotional intelligence, determination, and innovation.
          <br/></p>
          <p style = {{color: '#9de5e7',
           marginBottom: "0px",
