@@ -30,6 +30,7 @@ const Header = ({ siteTitle }) => (
          }}>anusri saraf
          <div class="links" style={{
            float: "right",
+           width:"445px"
          }}>
       <a href="https://www.linkedin.com/in/anusri-saraf-9520031a0/" target="_blank" rel = "noopener noreferrer">
       <svg viewBox="0 0 25.5 25.5" width="35px" height="35px" style={{ 

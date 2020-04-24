@@ -23,7 +23,7 @@ const IndexPage = () => (
       color: 'rgb(157, 229, 231)',
       textAlign: "center",
       }}>• where to find me •</p>*/}
-    <span class="intro" style={{width:"100%"}}>
+    <span class="intro" style={{width:"920px"}}>
       <span class="description" style={{float:"left"}}>
         <p style = {{
           fontSize: '20px',
