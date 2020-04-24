@@ -52,7 +52,7 @@ const IndexPage = () => (
         }}></p>
 
 
-      <div class="technology"></div>
+      <div class="technology" style={{display:"inline-block"}}></div>
         <p style={{
           fontFamily: "SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace",
           fontWeight: 'lighter',
@@ -97,7 +97,7 @@ const IndexPage = () => (
 
 
 
-      <div class="arts">
+      <div class="arts" style={{display:"inline-block"}}>
         <p style={{
           fontFamily: "SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace",
           fontWeight: 'lighter',
