@@ -52,7 +52,7 @@ const IndexPage = () => (
         }}></p>
 
 
-      <div class="technology" style={{display:"inline-block"}}></div>
+      <div class="technology" style={{display:"inline-block", width:"920px"}}></div>
         <p style={{
           fontFamily: "SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace",
           fontWeight: 'lighter',
@@ -77,7 +77,7 @@ const IndexPage = () => (
          </p>
          <p style = {{color: 'rgb(180, 180, 240)',
           marginBottom: "0px",
-          clear: "both",
+          //clear: "both",
           width: "460px",
           float: "right"}}>
          <i>cybersecurity</i> • i compete in online ctfs under the psuedonym art3m1s as part of the 6-member all-female team known as
