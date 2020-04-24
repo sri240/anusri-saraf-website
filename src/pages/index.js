@@ -68,7 +68,7 @@ const IndexPage = () => (
         <p style = {{color: 'rgb(180, 180, 240)',
           marginBottom: "0px",
           clear: "both",
-          marginRight: "460px"}}><i>programming</i> • i am proficient in numerous programming languages, including
+          width: "460px"}}><i>programming</i> • i am proficient in numerous programming languages, including
          but not limited to: python, java, javascript, and html/css. you can check out some of my projects on <a href="https://github.com/sri240" target="_blank">
          github</a>. i have been coding for years and i believe that it is the future. i have experience in web design, backend 
          development, natural language processing, and much more. programming is special for me because it boils down to problem 
@@ -77,7 +77,8 @@ const IndexPage = () => (
          <p style = {{color: 'rgb(180, 180, 240)',
           marginBottom: "0px",
           clear: "both",
-          marginLeft: "460px"}}>
+          width: "460px",
+          float: "right"}}>
          <i>cybersecurity</i> • i compete in online ctfs under the psuedonym art3m1s as part of the 6-member all-female team known as
          code red. through competing in these competitions, i have been able to develop various skills necessary for a career in 
          the field, including forensics, reverse engineering, cryptography, password cracking, web access exploitation, log analysis, 
@@ -88,7 +89,7 @@ const IndexPage = () => (
          <p style = {{color: 'rgb(180, 180, 240)',
           marginBottom: "20px",
           clear: "both",
-          marginRight: "460px"}}>
+          width: "460px"}}>
          <i>robotics</i> •  being quite the geek when it comes to robotics, i have become skilled in robotics design and build 
          practices, including autocad, fritzing, breadboarding, soldering, and woodworking. i complete projects with groups of 
          girls from girl scouts for recreation and competition. i teach robotics as well.</p>
@@ -114,7 +115,8 @@ const IndexPage = () => (
         <p style = {{color: '#f2aebe',
           marginBottom: "20px",
           clear: "both",
-          marginLeft: "460px"}}><i>music</i> • my instruments of choice include voice, violin, piano, guitar, and ukulele. i compose, 
+          width: "460px",
+          float: "right"}}><i>music</i> • my instruments of choice include voice, violin, piano, guitar, and ukulele. i compose, 
           analyze, perform, and produce music. it is, as many of my arts are, a form of relaxation for me while serving to 
           put my creative mind to work. i view music as something that can bring people together, and it can help us understand 
           one another in ways that pure words simply cannot convey.
@@ -122,25 +124,31 @@ const IndexPage = () => (
          <p style = {{color: '#f2aebe',
           marginBottom: "20px",
           clear: "both",
-          marginRight: "460px"}}>
+          width: "460px"}}>
          <i>poetry</i> • poetry is what i turn to when inspiration strikes me in the form of a snippet of a story. oftentimes i will find a way 
          to describe something that follows rhyme and structure, and i will rush to write it down. it is in this way, and by reading 
          the poetry of others, that i have developed my own poetry that expresses these thoughts and feelings concisely and with beauty.
          <br /></p>
-         <p style = {{color: '#f2aebe',
-          marginBottom: "20px",
-          clear: "both",
-          marginLeft: "460px"}}>
-         <i>writing</i> •  i have enjoyed writing for as long as i can remember. i was an avid reader when i was young, and i love 
-         to read even now. this love for reading became my passion and seed for writing.  late nights and early morning are when 
-         i love to write, because that is when i am isolated with my thoughts. i often write short stories about topics that i 
-         feel uncomfortable talking about normally or addressing in a poem. i seek to use imagery that reflects the thoughts 
-         and inner feelings of the characters, and to write stories that have a strong impact on the reader.</p>
+         <div class="writing" style={{
+           display:"inline"
+         }}>
+          <p style = {{color: '#f2aebe',
+            marginBottom: "20px",
+            clear: "both",
+            width: "460px",
+            float: "right"}}>
+          <i>writing</i> •  i have enjoyed writing for as long as i can remember. i was an avid reader when i was young, and i love 
+          to read even now. this love for reading became my passion and seed for writing.  late nights and early morning are when 
+          i love to write, because that is when i am isolated with my thoughts. i often write short stories about topics that i 
+          feel uncomfortable talking about normally or addressing in a poem. i seek to use imagery that reflects the thoughts 
+          and inner feelings of the characters, and to write stories that have a strong impact on the reader.</p>
+        {/*<p style={{float:"left"}}>epic</p>*/}
+         </div>
       </div>
 
 
 
-      <div class="people">
+      <div class="people" style={{display:"inline-block"}}>
         <p style={{
           fontFamily: "SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace",
           fontWeight: 'lighter',
@@ -152,11 +160,12 @@ const IndexPage = () => (
           fontWeight: 'lighter',
           color: "white",
           marginBottom: "20px",
+          width:"900px"
         }}>people</p>
         <p style = {{color: '#9de5e7',
           marginBottom: "0px",
           clear: "both",
-          marginRight: "460px"}}>
+          width: "460px"}}>
             <i>leadership & teamwork</i> • teamwork is necessary for humans to make progress. i practice teamwork in cybersecurity, school
             robotics, music, and in toastmasters. at school, i served as president of the freshman c/o 2022. during my time in the toastmasters 
             program, i have served as president and vice president of education and have earned my competent leadership award. being a leader 
@@ -165,7 +174,8 @@ const IndexPage = () => (
          <p style = {{color: '#9de5e7',
           marginBottom: "0px",
           clear: "both",
-          marginLeft: "460px"}}>
+          width: "460px",
+          float: "right"}}>
             <i>public speaking</i> • the toastmasters program also allows me to practice public speaking, yet another necessary
             skill, along with leadership, to become successful. i have earned my competent communicator award: my journey to this
             award was one that required a lot of growth. i became more comfortable on a stage, and learned how to reduce tension
@@ -174,7 +184,7 @@ const IndexPage = () => (
          <p style = {{color: '#9de5e7',
           marginBottom: "0px",
           clear: "both",
-          marginRight: "460px",
+          width: "460px",
           marginBottom: "20px"}}>
             <i>mentorship</i> • mentoring others is one of the most convenient  ways i have found to contribute to the community. i mentor younger girl 
             scouts, and i tutor students who need help with schoolwork and those who want to get ahead. throughout my life, i have had 
