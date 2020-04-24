@@ -23,24 +23,25 @@ const IndexPage = () => (
       color: 'rgb(157, 229, 231)',
       textAlign: "center",
       }}>• where to find me •</p>*/}
-
-    <span class="description" style={{float:"left", width:"920px"}}>
-      <p style = {{
-        fontSize: '20px',
-        marginBottom: '0.1em',
-        marginTop: '0.4em',
-        }}>• who i am •</p>
-      <p style={{maxWidth: "670px"}}>
-        <i>full-stack developer ~ engineer ~ musician ~ writer ~ leader</i> <br/>
-        fifteen year old student from the bay with a passion for exploration, the pursuit of knowledge, and practically everything else as well<br />
-        my goal is to discover and take advantage of all of the ways i can contribute to the world while doing what i love and living in contentment.
-      </p>
-    </span>
-    <span class="mylogo" style={{
-        alignItems: "left",
-
-        }}>
-      <Image />
+    <span class="intro">
+      <span class="description" style={{float:"left"}}>
+        <p style = {{
+          fontSize: '20px',
+          marginBottom: '0.1em',
+          marginTop: '0.4em',
+          }}>• who i am •</p>
+        <p style={{maxWidth: "670px"}}>
+          <i>full-stack developer ~ engineer ~ musician ~ writer ~ leader</i> <br/>
+          fifteen year old student from the bay with a passion for exploration, the pursuit of knowledge, and practically everything else as well<br />
+          my goal is to discover and take advantage of all of the ways i can contribute to the world while doing what i love and living in contentment.
+        </p>
+      </span>
+      <span class="mylogo" style={{
+          alignItems: "left",
+          float:"right"
+          }}>
+        <Image />
+      </span>
     </span>
     {/*250, 173, 143 */}
     <span class="activities"  style={{clear:"both"}}>
