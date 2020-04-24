@@ -55,7 +55,7 @@ const IndexPage = () => (
         }}></p>
 
 
-      <span class="technology" style={{display:"inline-block", width:"100%"}}>
+      <span class="technology" style={{display:"inline-block", width:"920px"}}>
         <p style={{
           fontFamily: "SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace",
           fontWeight: 'lighter',
