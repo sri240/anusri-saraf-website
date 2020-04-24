@@ -24,7 +24,7 @@ const IndexPage = () => (
       textAlign: "center",
       }}>• where to find me •</p>*/}
 
-    <span class="description" style={{float:"left"}}>
+    <span class="description" style={{float:"left", width:"920px"}}>
       <p style = {{
         fontSize: '20px',
         marginBottom: '0.1em',
