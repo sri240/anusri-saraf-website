@@ -24,25 +24,26 @@ const IndexPage = () => (
       textAlign: "center",
       }}>• where to find me •</p>*/}
 
-    <div class="description" style={{float:"left"}}>
+    <span class="description" style={{float:"left"}}>
       <p style = {{
         fontSize: '20px',
         marginBottom: '0.1em',
         marginTop: '0.4em',
         }}>• who i am •</p>
-      <p style={{maxWidth: "670px",}}>
+      <p style={{maxWidth: "670px"}}>
         <i>full-stack developer ~ engineer ~ musician ~ writer ~ leader</i> <br/>
         fifteen year old student from the bay with a passion for exploration, the pursuit of knowledge, and practically everything else as well<br />
         my goal is to discover and take advantage of all of the ways i can contribute to the world while doing what i love and living in contentment.
       </p>
-    </div>
-    <div class="mylogo" style={{
+    </span>
+    <span class="mylogo" style={{
         alignItems: "left",
+
         }}>
       <Image />
-    </div>
+    </span>
     {/*250, 173, 143 */}
-    <div class="activities"  style={{clear:"both"}}>
+    <span class="activities"  style={{clear:"both"}}>
       <p style = {{
         fontSize: '20px',
         marginBottom: '0.1em',
@@ -52,7 +53,7 @@ const IndexPage = () => (
         }}></p>
 
 
-      <div class="technology" style={{display:"inline-block", width:"920px"}}></div>
+      <span class="technology" style={{display:"inline-block", width:"920px"}}>
         <p style={{
           fontFamily: "SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace",
           fontWeight: 'lighter',
@@ -77,7 +78,7 @@ const IndexPage = () => (
          </p>
          <p style = {{color: 'rgb(180, 180, 240)',
           marginBottom: "0px",
-          //clear: "both",
+          clear: "both",
           width: "460px",
           float: "right"}}>
          <i>cybersecurity</i> • i compete in online ctfs under the psuedonym art3m1s as part of the 6-member all-female team known as
@@ -95,10 +96,11 @@ const IndexPage = () => (
          practices, including autocad, fritzing, breadboarding, soldering, and woodworking. i complete projects with groups of 
          girls from girl scouts for recreation and competition. i teach robotics as well.</p>
         {/*data science: show algorithms and link kaggle projects*/}
+        </span>
 
 
 
-      <div class="arts" style={{display:"inline-block", width:"920px"}}>
+      <span class="arts" style={{display:"inline-block", width:"920px"}}>
         <p style={{
           fontFamily: "SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace",
           fontWeight: 'lighter',
@@ -130,9 +132,9 @@ const IndexPage = () => (
          to describe something that follows rhyme and structure, and i will rush to write it down. it is in this way, and by reading 
          the poetry of others, that i have developed my own poetry that expresses these thoughts and feelings concisely and with beauty.
          <br /></p>
-         <div class="writing" style={{
+         {/*</div><span class="writing" style={{
            display:"inline"
-         }}>
+         }}>*/}
           <p style = {{color: '#f2aebe',
             marginBottom: "20px",
             clear: "both",
@@ -144,12 +146,11 @@ const IndexPage = () => (
           feel uncomfortable talking about normally or addressing in a poem. i seek to use imagery that reflects the thoughts 
           and inner feelings of the characters, and to write stories that have a strong impact on the reader.</p>
         {/*<p style={{float:"left"}}>epic</p>*/}
-         </div>
-      </div>
+      </span>
 
 
 
-      <div class="people" style={{display:"inline-block"}}>
+      <span class="people" style={{display:"inline-block"}}>
         <p style={{
           fontFamily: "SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace",
           fontWeight: 'lighter',
@@ -190,9 +191,9 @@ const IndexPage = () => (
             <i>mentorship</i> • mentoring others is one of the most convenient  ways i have found to contribute to the community. i mentor younger girl 
             scouts, and i tutor students who need help with schoolwork and those who want to get ahead. throughout my life, i have had 
             many valuable mentors who have helped me reach where i am today, and mentoring others is my way of giving back.</p>
-      </div>
+      </span>
 
-    </div>
+    </span>
   </Layout>
 )
 
