@@ -38,7 +38,8 @@ const IndexPage = () => (
       </span>
       <span class="mylogo" style={{
           alignItems: "left",
-          float:"right"
+          float:"right",
+          marginRight:"30px"
           }}>
         <Image />
       </span>
