@@ -143,7 +143,7 @@ const IndexPage = () => (
             width: "460px",
             float: "right"}}>
           <i>writing</i> •  i have enjoyed writing for as long as i can remember. i was an avid reader when i was young, and i love 
-          to read even now. this love for reading became my passion and seed for writing.  late nights and early morning are when 
+          to read even now. this love for reading became my passion and seed for writing.  late nights and early mornings are when 
           i love to write, because that is when i am isolated with my thoughts. i often write short stories about topics that i 
           feel uncomfortable talking about normally or addressing in a poem. i seek to use imagery that reflects the thoughts 
           and inner feelings of the characters, and to write stories that have a strong impact on the reader.</p>
@@ -170,7 +170,7 @@ const IndexPage = () => (
           marginBottom: "0px",
           clear: "both",
           width: "460px"}}>
-            <i>leadership & teamwork</i> • teamwork is necessary for humans to make progress. i practice teamwork in cybersecurity, school
+            <i>leadership & teamwork</i> • teamwork is necessary for humans to make progress. i practice teamwork in cybersecurity, school,
             robotics, music, and in toastmasters. at school, i served as president of the freshman c/o 2022. during my time in the toastmasters 
             program, i have served as president and vice president of education and have earned my competent leadership award. being a leader 
             in these activities requires emotional intelligence, determination, and innovation.
