@@ -36,12 +36,15 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
 
-        <footer style = {{
-          color: "white",
-          fontFamily: "SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace",
-        }}>
-         created by anusri saraf
-      {/*{new Date().getFullYear()}, */}
+        <footer
+          style={{
+            color: "white",
+            fontFamily:
+              "SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace",
+          }}
+        >
+          created by anusri saraf
+          {/*{new Date().getFullYear()}, */}
         </footer>
       </div>
     </>

@@ -13,7 +13,7 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Image = () => {
+/*const Image = () => {
   const data = useStaticQuery(graphql`
     query {
       file(relativePath: { eq: "omo.png" }) {
@@ -36,4 +36,4 @@ const Image = () => {
   />
 }
 
-export default Image
+export default Image*/

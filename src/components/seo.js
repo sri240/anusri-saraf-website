@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import favicon from "../images/favicon.ico";
+import favicon from "../images/favicon.ico"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
@@ -20,6 +20,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            keywords
           }
         }
       }
@@ -27,7 +28,6 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-
   return (
     <Helmet
       htmlAttributes={{
@@ -41,8 +41,12 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: "keywords",
+          content: site.siteMetadata.keywords.join(","),
+        },
+        {
           property: `og:title`,
-          content: 'anusri saraf',
+          content: "anusri saraf",
         },
         {
           property: `og:description`,
@@ -62,16 +66,14 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: 'anusri saraf',
+          content: "anusri saraf",
         },
         {
           name: `twitter:description`,
           content: metaDescription,
         },
       ].concat(meta)}
-      link={[
-        { rel: 'icon', href: `${favicon}` },
-    ]}
+      link={[{ rel: "icon", href: `${favicon}` }]}
     />
   )
 }

@@ -1,99 +1,611 @@
 html {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: rgb(2,1,3);
+  background-color: rgb(2, 1, 3);
+  /*background-color: rgb(15, 17, 18);*/
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-span.description{}
-span.programming p{
-  padding: 12px;
-  transition: .6s ease;
-  color: rgb(180, 180, 240)
-  /*background-image: linear-gradient(rgba(181,180,237,0.2), rgba(0,0,0,0)*/
+/*@media screen and (max-width: 800px) {
+  .programming,
+  .cybersecurity,
+  .robotics,
+  .lead p,
+  .public p,
+  .mentor p {
+    width: 100%; // The width is 100%, when the viewport is 800px or smaller 
+  }
+}*/
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+  body {
+    width: 100%;
+  }
+  #theLinks {
+    display: none;
+  }
+  #menubar {
+    display: inline-flex;
+    visibility: visible;
+    float: right;
+    /*margin-left: 320px;
+    margin-top: -95px;*/
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: -50px;
+  }
+  .intro p {
+    width: 100%;
+    word-wrap: break-word;
+  }
+  .description {
+    margin-top: -80px;
+  }
+  .mylogo {
+    visibility: none;
+  }
 }
-span.cybersecurity p{
-  padding: 12px;
-  transition: .6s ease;
-  color: rgb(180, 180, 240)
+.theDesc {
+  width: 660px;
 }
-span.robotics p{
-  padding: 12px;
-  transition: .6s ease;
-  color: rgb(180, 180, 240)
+/*#diamonds {
+  max-width: 460px;
+  margin-bottom: -10px;
+  /*max-height: 285px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: -8px;
+  padding-left: 15px;
+  padding-right: 25px;*
+}*/
+.excerpt {
+  font-family: "Courier New", Courier, monospace;
 }
-span.programming p:hover{
+.atitle {
+  color: white;
+  font-family: "SFMono-Regular", Consolas, Roboto Mono, Droid Sans Mono,
+    Liberation Mono, Menlo, Courier, monospace;
+  font-size: 40px;
+  font-style: italic;
+}
+.backarrow {
+  font-family: "SFMono-Regular", Consolas, Roboto Mono, Droid Sans Mono,
+    Liberation Mono, Menlo, Courier, monospace;
+  font-weight: lighter;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+}
+#rects {
+  max-width: 460px;
+  max-height: 260px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+#stripes {
+  max-width: 440px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+#chrisflower {
+  max-width: 420px;
+  max-height: 410px;
+  margin-left: 25px;
+  margin-top: 3px;
+  margin-bottom: -5px;
+}
+#sparkles {
+  width: 420px;
+  height: 400px;
+  margin-top: 15px;
+}
+.BBB {
+  background-color: white;
+}
+.games {
+  float: left;
+}
+.thestory {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  /*background: rgba(180, 180, 240, 0.4);*/
+  padding: 10px;
+  padding-bottom: 1px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.storyText {
+  font-family: "PT Sans", sans-serif;
+  line-height: 25px;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  margin-top: -20px;
+  font-weight: 500;
+  /*color: #ccceda;*/
+  color: white;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 13, 13);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.fff p {
+  width: 460px;
+  margin-bottom: 0px;
+  float: left;
+  font-family: "Courier New", monospace;
+  padding: 12px;
+  transition: 0.6s ease;
+  background: rgba(174, 227, 231, 0.5);
+  color: white;
+}
+.hhh p {
+  width: 460px;
+  margin-bottom: 0px;
+  float: left;
+  font-family: "Courier New", monospace;
+  padding: 12px;
+  transition: 0.6s ease;
+  background: rgba(245, 182, 174, 0.5);
+  color: white;
+}
+.mmm p {
+  width: 460px;
+  margin-bottom: 0px;
+  float: left;
+  font-family: "Courier New", monospace;
+  padding: 12px;
+  transition: 0.6s ease;
+  background-color: rgba(180, 180, 240, 0.5);
+  color: white;
+}
+/*.programming:active {
+  background: rgba(180, 180, 240, 0.5);
+  color: white;
+  width: 50%;
+}*/
+.mylogo {
+  align-items: left;
+  float: right;
+  margin-right: 30px;
+}
+.arts,
+.people,
+.technology,
+.lead,
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.gg {
+  color: white;
+  font-family: Courier New;
+  font-weight: lighter;
+  background-image: url(https://i.imgur.com/isD0Iqp.png?1);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-position: right;
+}
+a.arrows1,
+a.arrows2,
+a.arrows3,
+a.arrows4 {
+  margin-top: 25px;
+  text-align: right;
+  font-family: "SFMono-Regular", Consolas, Roboto Mono, Droid Sans Mono,
+    Liberation Mono, Menlo, Courier, monospace;
+  font-weight: lighter;
+  font-size: 17px;
+  float: right;
+  text-decoration: none;
+  color: white;
+}
+a.arrows4 {
+  width: 60px;
+  text-align: left;
+  float: none;
+}
+a.arrows1:hover {
+  color: #b5b4ed;
+}
+a.arrows2:hover {
+  color: #ecbab2;
+}
+a.arrows3:hover {
+  color: #aee3e7;
+}
+#menubar {
+  fill: white;
+  opacity: 90%;
+}
+#menubar:hover {
+  fill: #b3fdff;
+  transform: scale(1);
+}
+.overlay {
+  /*background-image: url(https://i.imgur.com/isD0Iqp.png?1);*/
+  background-size: 450px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.arth p {
+  font-family: "SFMono-Regular", Consolas, Roboto Mono, Droid Sans Mono,
+    Liberation Mono, Menlo, Courier, monospace;
+  font-weight: lighter;
+  text-align: right;
+  margin-bottom: 20px;
+  color: white;
+}
+.peopleh p {
+  font-family: "SFMono-Regular", Consolas, Roboto Mono, Droid Sans Mono,
+    Liberation Mono, Menlo, Courier, monospace;
+  font-weight: lighter;
+  text-align: left;
+  margin-bottom: 20px;
+  color: white;
+}
+.peopleh {
+  margin-top: 20px;
+}
+.techh {
+  display: inline-block;
+}
+.techh p {
+  font-family: "SFMono-Regular", Consolas, Roboto Mono, Droid Sans Mono,
+    Liberation Mono, Menlo, Courier, monospace;
+  font-weight: lighter;
+  text-align: left;
+  float: left;
+  margin-bottom: 20px;
+  color: white;
+}
+.technology {
+  margin-top: -10px;
+}
+.cybersecurity img {
+  width: 440px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+  /*background-color: rgba(47, 5, 9, 0.9);*/
+}
+.thetable {
+  color: white;
+}
+.tablecontent {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+.tablecontent2 {
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+.pageStoryTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
+.pageStoryTitle2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: -25px;
+  margin-bottom: 30px;
+  padding-left: 5px;
+}
+.storyheader {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.storyheader2 {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 7px;
+  font-weight: 500;
+}
+.oppa:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.oppa {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  padding-bottom: 0px;
+  transition: 0.6s ease;
+}
+.oppaa {
+  font-family: "Titillium Web", sans-serif;
+  margin-top: 0px;
+  padding: 10px;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  transition: 0.2s ease-in;
+  width: 450px;
+}
+.oppaa:hover {
+  /*background-color: rgba(124, 160, 199, 0.9);
+  box-shadow: rgb(152, 198, 246, 0.3) -5px 5px;*/
+  background-color: rgba(142, 142, 189, 0.9);
+  box-shadow: rgb(142, 142, 189, 0.3) -5px 5px;
+}
+.storyTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.storyTime {
+  font-family: "SFMono-Regular", Consolas, Roboto Mono, Droid Sans Mono,
+    Liberation Mono, Menlo, Courier, monospace;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+#moons {
+  width: 440px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+  /*background-color: rgba(47, 5, 9, 0.9);*/
+}
+#ink {
+  float: left;
+  width: 400px;
+  margin-top: 42px;
+  margin-left: 22px;
+  margin-right: 38px;
+}
+#banners {
+  margin-top: 0px;
+  margin-bottom: -1px;
+  width: 460px;
+  margin-left: 6px;
+  margin-right: -6px;
+}
+/*.moo {
+  background: url(https://i.imgur.com/VMUTYsT.png?3);
+  transition: 0.3s ease;
+  width: 460px;
+  height: 237px;
+  padding-bottom: 13px;
+  padding-top: 2px;
+  padding-left: 7px;
+  margin-top: 19px;
+  margin-bottom: 0px;
+  float: right;
+}
+.moo:hover {
+  background: url(https://i.imgur.com/Hs4DwHi.png?2);
+}*/
+#gavel {
+  transition: 0.6s ease;
+  width: 460px;
+  height: 190px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: right;
+}
+#gavel:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+span.description {
+  font-family: "Courier New", monospace;
+  color: rgb(137, 200, 251);
+}
+span.mylogo {
+  width: 160px;
+  height: 233px;
+  transform: rotate(10deg);
+  margin-left: 3em;
+  align-items: left;
+  float: right;
+  margin-right: 30px;
+}
+#bubbles {
+  height: 220px;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+div.conway,
+div.ball,
+div.igl-tech,
+div.roses,
+div.covid {
+  font-family: "Titillium Web", sans-serif;
+  /*border-left: #121212 5px solid;*/
+  /*border-bottom: #121212 5px solid;*/
+  float: left;
+  margin-left: 10px;
+  padding-left: 12px;
+  height: 74px;
+  width: 440px;
+  color: white;
+  transition: 0.2s ease-in;
+  /*border-left: transparent 4px solid;*/
+}
+div.conway p,
+div.ball p,
+div.igl-tech p,
+div.roses p,
+div.covid p {
+  padding-top: 22px;
+  font-size: 22.8px;
+}
+div.conway:hover,
+div.ball:hover,
+div.igl-tech:hover,
+div.roses:hover,
+div.covid:hover {
+  box-shadow: rgba(212, 156, 148, 0.3) 5px 5px;
+  /*border: 1px solid rgb(212, 156, 148);*/
+  background: rgba(212, 156, 148, 0.9);
+  /*border-left: #d49c94 5px solid;
+  /*border-left: #936E69 5px solid;*/
+  /*border-bottom: rgb(2,1,3) 5px solid;*/
+  /*border-bottom: #53403D 5px solid;*/
+}
+div.honest,
+div.ukiyo,
+div.incoherent,
+div.gnossienne,
+div.alexithymia {
+  font-family: "Titillium Web", sans-serif;
+  /*border-left: #121212 5px solid;*/
+  /*border-bottom: #121212 5px solid;*/
+  float: left;
+  margin-left: 10px;
+  padding-left: 12px;
+  height: 73px;
+  width: 440px;
+  color: white;
+  transition: 0.2s ease-in;
+  /*border-left: transparent 4px solid;*/
+}
+div.honest p,
+div.ukiyo p,
+div.incoherent p,
+div.gnossienne p,
+div.alexithymia p {
+  padding-top: 22px;
+  font-size: 23px;
+}
+div.honest:hover,
+div.ukiyo:hover,
+div.incoherent:hover,
+div.gnossienne:hover,
+div.alexithymia:hover {
+  box-shadow: rgba(136, 192, 196, 0.3) -5px 5px;
+  /*border: 1px solid rgb(212, 156, 148);*/
+  background: rgba(136, 192, 196, 0.9);
+  /*border-left: #d49c94 5px solid;
+  /*border-left: #936E69 5px solid;*/
+  /*border-bottom: rgb(2,1,3) 5px solid;*/
+  /*border-bottom: #53403D 5px solid;*/
+}
+.programs {
+  display: inline-block;
+  width: 460px;
+}
+.programs {
+  display: inline-block;
+  width: 460px;
+  margin-top: 10px;
+}
+#robotics {
+  margin-bottom: 20px;
+}
+.another {
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 460px;
+  margin-bottom: 0px;
+  font-family: "Courier New", monospace;
+  padding: 12px;
+  transition: 0.6s ease;
+  color: #f1dcb4;
+}
+/*.another:hover {
+  color: white;
+  background-color: rgba(241, 220, 180, 0.5);
+}*/
+.programming p,
+.cybersecurity p,
+.robotics p {
+  width: 460px;
+  margin-bottom: 0px;
+  float: left;
+  font-family: "Courier New", monospace;
+  padding: 12px;
+  transition: 0.6s ease;
+  color: rgb(180, 180, 240);
+  /*background-image: linear-gradient(rgba(181,180,237,0.2), rgba(0,0,0,0))*/
+}
+.programming p:hover,
+.cybersecurity p:hover,
+.robotics p:hover {
   /*background-image: linear-gradient(to right, rgba(245, 182, 174,0.5), rgba(2,1,3,0));*/
-  background: rgba(180, 180, 240,0.5);
-  color:white;
+  background: rgba(180, 180, 240, 0.5);
+  color: white;
 }
-span.cybersecurity p:hover{
-  background: rgba(180, 180, 240,0.5);
-  color:white;
-}
-span.robotics p:hover{
-  background: rgba(180, 180, 240,0.5);
-  color:white;
-}
-span.music p{
+.music p,
+.poetry p,
+.writing p {
+  width: 460px;
+  margin-bottom: 0px;
+  clear: both;
+  font-family: "Courier New", monospace;
   padding: 12px;
-  transition: .6s ease;
-  color: #ecbab2
+  transition: 0.6s ease;
+  color: #ecbab2;
 }
-span.poetry p{
+.music p:hover,
+.poetry p:hover,
+.writing p:hover {
+  background: rgba(245, 182, 174, 0.5);
+  color: #ffffff;
+}
+.lead p,
+.public p,
+.mentor p {
+  margin-bottom: 0px;
+  clear: both;
+  width: 460px;
+  font-family: "Courier New", monospace;
   padding: 12px;
-  transition: .6s ease;
-  color: #ecbab2
+  transition: 0.6s ease;
+  color: #aee3e7;
 }
-span.writing p{
-  padding: 12px;
-  transition: .6s ease;
-  color: #ecbab2
-}
-span.music p:hover{
-  background: rgba(245, 182, 174,0.5);
-  color:#ffffff;
-}
-span.poetry p:hover{
-  background: rgba(245, 182, 174,0.5);
-  color:white;
-}
-span.writing p:hover{
-  background: rgba(245, 182, 174,0.5);
-  color:white;
-}
-span.lead p{
-  padding: 12px;
-  transition: .6s ease;
-  color: #aee3e7
-  /*background-image: linear-gradient(rgba(181,180,237,0.2), rgba(0,0,0,0)*/
-}
-span.public p{
-  padding: 12px;
-  transition: .6s ease;
-  color: #aee3e7
-}
-span.mentor p{
-  padding: 12px;
-  transition: .6s ease;
-  color: #aee3e7
-}
-span.lead p:hover{
-  /*background-image: linear-gradient(to right, rgba(245, 182, 174,0.5), rgba(2,1,3,0));*/
-  background: rgba(174, 227, 231,0.5);
-  color:white;
-}
-span.public p:hover{
-  background: rgba(174, 227, 231,0.5);
-  color:white;
-}
-span.mentor p:hover{
-  background: rgba(174, 227, 231,0.5);
-  color:white;
+.lead p:hover,
+.public p:hover,
+.mentor p:hover {
+  background: rgba(174, 227, 231, 0.5);
+  color: white;
 }
 article,
 aside,
@@ -101,8 +613,8 @@ details,
 figcaption,
 figure,
 footer,
-header{
-  font-family: 'Courier New', Courier, monospace;
+header {
+  font-family: "Courier New", Courier, monospace;
 }
 main,
 menu,
@@ -131,12 +643,12 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: #aee3e7;
+  /*color: #b5b4ed;*/
 }
 a:active,
 a:hover {
   outline-width: 0;
-  color:white;
+  color: white;
 }
 abbr[title] {
   border-bottom: none;
@@ -184,17 +696,22 @@ img {
 svg:not(:root) {
   overflow: hidden;
 }
-svg{
+svg {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 6px;
+  vertical-align: bottom;
   fill: #9de5e7;
-  transition: transform .2s;
-  opacity:0.8;
+  transition: transform 0.2s;
+  opacity: 0.8;
 }
-svg:hover{
-  fill: #f1dcb4;
+svg:hover {
+  fill: #adfcff;
   transform: scale(1.2);
-  opacity:1;
+  opacity: 1;
 }
-div.activities{
+div.activities {
+  clear: both;
   color: rgb(180, 180, 240);
 }
 code,
@@ -484,8 +1001,6 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
-  color: rgb(137, 200, 251);
-  font-family: "Courier New", monospace;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -723,9 +1238,4 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
-}
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
 }
