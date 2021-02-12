@@ -331,7 +331,7 @@ const IndexPage = ({ data }) => (
             id="moons"
           ></img>
           <p id="cybersecurity">
-            <i>cybersecurity</i> • i compete in online ctfs under the psuedonym
+            <i>cybersecurity</i> • i compete in online ctfs under the pseudonym
             art3m1s as part of the 6-member all-female team known as code red.
             through competing in these competitions, i have been able to develop
             various skills necessary for a career in the field, including
