@@ -2,7 +2,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-/*const scrollTo = ele => {
+/*
+auto-scroll
+const scrollTo = ele => {
   ele.scrollIntoView({
     behavior: "smooth",
     block: "start",
