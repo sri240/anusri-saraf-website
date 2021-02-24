@@ -525,9 +525,9 @@ const IndexPage = ({ data }) => (
             president of the freshman c/o 2022. during my time in the
             toastmasters program with a grandiose gaveliers, i have served as
             president and vice president of education and have earned my
-            competent leadership award. being a leader in these activities has
-            allowed me to develop my emotional intelligence, determination, and
-            innovation.
+            advanced leadership silver award. being a leader in these activities
+            has allowed me to develop my emotional intelligence, determination,
+            and innovation.
             <br />
             <a
               class="arrows3"
@@ -557,11 +557,11 @@ const IndexPage = ({ data }) => (
           <p style={{ float: "right" }}>
             <i>public speaking</i> • the toastmasters program also allows me to
             practice public speaking, yet another necessary skill, along with
-            leadership, to become successful. i have earned my competent
-            communicator award: my journey to this award was one that required a
-            lot of growth. i became more comfortable on a stage, and learned how
-            to reduce tension between a speaker and the audience while conveying
-            a significant message.
+            leadership, to become successful. i have earned my advanced
+            communicator gold award: my journey to this award was one that
+            required a lot of growth. i became more comfortable on a stage, and
+            learned how to reduce tension between a speaker and the audience
+            while conveying a significant message.
           </p>
         </div>
 
