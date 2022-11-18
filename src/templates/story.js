@@ -15,7 +15,8 @@ export default function Story({ data }) {
       <div class="thestory">
         <h1 class="pageStoryTitle">{post.frontmatter.title}</h1>
         <h4 class="pageStoryTitle2">
-          {post.fields.readingTime.text} • {post.fields.readingTime.words} words
+          {post.frontmatter.year} • {post.fields.readingTime.text} •{" "}
+          {post.fields.readingTime.words} words
         </h4>
         <div
           class="storyText"
@@ -33,6 +34,7 @@ export const query = graphql`
       rawMarkdownBody
       frontmatter {
         title
+        year
       }
       fields {
         readingTime {

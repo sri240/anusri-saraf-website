@@ -68,9 +68,9 @@ export const query = graphql`
           id
           frontmatter {
             title
+            year
           }
           fields {
-            year
             readingTime {
               text
               words

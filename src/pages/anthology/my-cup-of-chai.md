@@ -1,5 +1,6 @@
 ---
 title: my cup of chai
+year: "2019"
 ---
 
 &emsp;&emsp;&emsp;I grimace at the sound of my glasses scraping against the windowsill. I wash my face with cold water and look around momentarily, before realizing the only towel we have is in the other bathroom. Sighing, I wipe my face on my shirt and pick up my glasses again, carefully, to avoid the dreaded scraping noise. A mosquito flies by; I envy its ability to remain in the bathroom for longer than 30 seconds - I can't stand the stench. I go back to my room and pause for a moment, listening to the sounds from outside the window. The steady patter of the rain relaxes me, and there is a familiarity to be found in the birdsongs from the trees.<br>
