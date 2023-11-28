@@ -224,7 +224,7 @@ const IndexPage = ({ data }) => (
         <p class="theDesc">
           <i>full-stack developer ~ engineer ~ musician ~ writer ~ leader</i>{" "}
           <br />
-          eighteen year old MIT student from the bay area with a passion for
+          nineteen year old MIT student from the bay area with a passion for
           exploration, the pursuit of knowledge, and practically everything else
           as well
           <br />
