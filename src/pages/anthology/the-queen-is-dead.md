@@ -70,7 +70,7 @@ Tom smirked and leaned forward.<br>
 &emsp;&emsp;&emsp;“What happened?” Tom lifted his gaze to Mrs. Wu’s bloody face.<br>
 &emsp;&emsp;&emsp;“Her condition has gotten worse. She will be staying here for a while.” Her accent was prominent in her grief.<br>
 &emsp;&emsp;&emsp;_Her condition??_<br>
-&emsp;&emsp;&emsp;The nurse entered, checked on May’s vitals, and explained to Tom how Mei’s brain had accelerated its degeneration, how Mei likely had limited time left.<br>
+&emsp;&emsp;&emsp;The nurse entered, checked on Mei’s vitals, and explained to Tom how Mei’s brain had accelerated its degeneration, how Mei likely had limited time left.<br>
 &emsp;&emsp;&emsp;Tom nodded, barely comprehending a word.<br>
 
 <center>***</center>
